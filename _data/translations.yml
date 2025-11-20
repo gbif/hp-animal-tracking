@@ -1,0 +1,118 @@
+# The translations on this page is machine generated and need a review before you use them. They are intended to be used as a starting point for your own translations.
+relatedPosts:
+  en: "Related Posts"
+  es: "Artículos relacionados"
+  it: "Post Correlati"
+  ru: "Связанные публикации"
+  ar: "المشاركات ذات الصلة"
+  fr: "Articles connexes"
+  zh: "相关帖子"
+  ja: "関連記事"
+  da: "Relaterede indlæg"
+
+differentLanguage:
+  en: "This page is available in following languages"
+  es: "Esta página está disponible en los siguientes idiomas"
+  it: "Questa pagina è disponibile in diverse lingue"
+  ru: "Эта страница доступна на следующих языках"
+  ar: "هذه الصفحة متوفرة بلغات متعددة"
+  fr: "Cette page est disponible dans plusieurs langues"
+  zh: "本页面提供多种语言版本"
+  ja: "このページは複数の言語で利用できます"
+  da: "Denne side er tilgængelig på følgende sprog"
+
+tocTitle:
+  en: "On this page"
+  it: "In questa pagina"
+  ru: "На этой странице"
+  ar: "على هذه الصفحة"
+  fr: "Sur cette page"
+  zh: "本页内容"
+  ja: "このページについて"
+  es: "En esta página"
+  da: "På denne side"
+
+terms:
+  en: |
+    We use cookies on our website. Some are technically necessary, others help us improve your user experience. You can decline non-essential cookies by selecting "Reject". Please see our [Privacy Policy](/privacy) for further information about our privacy practices and use of cookies.
+  es: |
+    Utilizamos cookies en nuestro sitio web. Algunas son técnicamente necesarias, otras nos ayudan a mejorar su experiencia de usuario. Puede rechazar las cookies no esenciales seleccionando "Rechazar". Consulte nuestra [Política de privacidad](/privacy) para obtener más información sobre nuestras prácticas de privacidad y el uso de cookies.
+  it: |
+    Utilizziamo i cookie sul nostro sito web. Alcuni sono tecnicamente necessari, altri ci aiutano a migliorare la tua esperienza utente. Puoi rifiutare i cookie non essenziali selezionando "Rifiuta". Per ulteriori informazioni sulle nostre pratiche sulla privacy e sull'uso dei cookie, consulta la nostra [Informativa sulla privacy](/privacy).
+  ru: |
+    Мы используем файлы cookie на нашем веб-сайте. Некоторые из них технически необходимы, другие помогают нам улучшить ваш опыт использования. Вы можете отказаться от необязательных файлов cookie, выбрав "Отклонить". Пожалуйста, ознакомьтесь с нашей [Политикой конфиденциальности](/privacy) для получения дополнительной информации о наших практиках конфиденциальности и использовании файлов cookie.
+  ar: |
+    نستخدم ملفات تعريف الارتباط على موقعنا الإلكتروني. بعضها ضروري من الناحية الفنية ، والبعض الآخر يساعدنا على تحسين تجربتك كمستخدم. يمكنك رفض ملفات تعريف الارتباط غير الضرورية عن طريق تحديد "رفض". يرجى الرجوع إلى [سياسة الخصوصية](/privacy) لمزيد من المعلومات حول ممارسات الخصوصية لدينا واستخدام ملفات تعريف الارتباط.
+  fr: |
+    Nous utilisons des cookies sur notre site web. Certains sont techniquement nécessaires, d'autres nous aident à améliorer votre expérience utilisateur. Vous pouvez refuser les cookies non essentiels en sélectionnant "Rejeter". Veuillez consulter notre [Politique de confidentialité](/privacy) pour plus d'informations sur nos pratiques en matière de confidentialité et d'utilisation des cookies.
+  zh: |
+    我们在网站上使用Cookie。有些是技术上必需的，其他则帮助我们改善您的用户体验。您可以通过选择"拒绝"来拒绝非必要的Cookie。有关我们的隐私政策和Cookie使用的更多信息，请参阅我们的[隐私政策](/privacy)。
+  ja: |
+    当社のウェブサイトではクッキーを使用しています。一部は技術的に必要なもので、他のものはユーザーエクスペリエンスを向上させるのに役立ちます。不要なクッキーを「拒否」を選択することでお断りすることができます。詳細については、当社の[プライバシーポリシー](/privacy)をご覧いただき、プライバシーの実践とクッキーの使用に関する追加情報をご確認ください。
+  da: |
+    Vi bruger cookies på vores hjemmeside. Nogle er teknisk nødvendige, andre hjælper os med at forbedre din brugeroplevelse. Du kan afvise ikke-nødvendige cookies ved at vælge "Afvis". Se venligst vores [Privatlivspolitik](/privacy) for yderligere information om vores privatlivspraksis og brug af cookies.
+
+acceptTerms:
+  en: 'Accept'
+  es: 'Aceptar'
+  it: 'Accetta'
+  ru: 'Принять'
+  ar: 'قبول'
+  fr: 'Accepter'
+  zh: '接受'
+  ja: '承諾'
+  da: 'Accepter'
+
+rejectTerms:
+  en: 'Reject'
+  es: 'Rechazar'
+  it: 'Rifiuta'
+  ru: 'Отклонить'
+  ar: 'رفض'
+  fr: 'Rejeter'
+  zh: '拒绝'
+  ja: '拒否'
+  da: 'Afvis'
+
+# Used by the stories block type
+contentTypes:
+  DataUse:
+    en: 'Data use'
+    es: 'Uso de datos'
+    it: 'Uso dei dati'
+    ru: 'Использование данных'
+    ar: 'استخدام البيانات'
+    fr: 'Utilisation des données'
+    zh: '数据使用'
+    ja: 'データ利用'
+    da: 'Databrug'
+  News:
+    en: 'News'
+    es: 'Noticias'
+    it: 'Notizie'
+    ru: 'Новости'
+    ar: 'أخبار'
+    fr: 'Actualités'
+    zh: '新闻'
+    ja: 'ニュース'
+    da: 'Nyheder'
+  Event:
+    en: 'Event'
+    es: 'Evento'
+    it: 'Evento'
+    ru: 'Событие'
+    ar: 'حدث'
+    fr: 'Événement'
+    zh: '事件'
+    ja: 'イベント'
+    da: 'Begivenhed'
+  Literature:
+    en: 'Literature'
+    es: 'Literatura'
+    it: 'Letteratura'
+    ru: 'Литература'
+    ar: 'أدب'
+    fr: 'Littérature'
+    zh: '文学'
+    ja: '文学'
+    da: 'Litteratur'

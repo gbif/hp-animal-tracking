@@ -1,0 +1,1 @@
+To create custom css for your site, then create a new file and import it from the _main.scss file. Or simply add it to that file. The site is build with Bulma, but you also have acess to tailwind classes so in most cases you do not need to write new css.

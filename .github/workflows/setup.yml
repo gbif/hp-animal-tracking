@@ -1,0 +1,30 @@
+name: Setup repository from template
+on:
+  workflow_dispatch:
+    inputs:
+      siteName:
+        description: 'Replace template_site with the name of the site (excluding the hp prefix)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+          
+      - name: Search and replace
+        run: |
+          find . -path ./.github -prune -o -type f \( -name "*.yml" -o -name "*.js" -o -name "*.md" -o -name "*.html" \) -exec sed -i 's/template_site/${{ inputs.siteName }}/g' {} +
+          
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Replace template placeholders" || echo "No changes to commit"
+          git push

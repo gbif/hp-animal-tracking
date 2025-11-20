@@ -1,0 +1,2 @@
+# placholder images
+Consider leaving these files as simple placeholders you can use when creating new pages, blocks or layouts. The placeholder images are creating using `https://via.assets.so/img.jpg?w=1000&h=500&gradientFrom=ef629f&gradientTo=eecda3&gradientAngle=270&f=png&fontColor=ffffff`. Those services have a tendency to come and go, so a few actual generated files are included here.

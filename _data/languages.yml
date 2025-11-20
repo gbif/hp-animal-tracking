@@ -1,0 +1,31 @@
+# The translations on this page is machine generated and need a review
+en:
+  label: English
+  archive_permalink: /post/
+da:
+  label: Dansk
+  archive_permalink: /da/post/
+es:
+  label: Español
+  archive_permalink: /es/post/
+it:
+  label: Italiano
+  archive_permalink: /it/post/
+ru:
+  label: Русский
+  archive_permalink: /ru/post/
+ar:
+  label: العربية
+  archive_permalink: /ar/post/
+fr:
+  label: Français
+  archive_permalink: /fr/post/
+zh:
+  label: 中文
+  archive_permalink: /zh/post/
+zh-tw:
+  label: 繁體中文
+  archive_permalink: /zh-tw/post/
+ja:
+  label: 日本語
+  archive_permalink: /ja/post/

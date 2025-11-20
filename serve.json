@@ -1,0 +1,21 @@
+{
+  "comment": "This file isn't relevant. It is only used to test things locally for developers.",
+  "rewrites": [
+    {
+      "source": "/institution/*-*",
+      "destination": "/institution/_key_.html"
+    },
+    {
+      "source": "/institution/*-*/*",
+      "destination": "/institution/_key_.html"
+    },
+    {
+      "source": "/collection/*-*",
+      "destination": "/collection/_key_.html"
+    },
+    {
+      "source": "/collection/*-*/*",
+      "destination": "/collection/_key_.html"
+    }
+  ]
+}

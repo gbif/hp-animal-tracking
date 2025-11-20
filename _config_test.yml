@@ -1,0 +1,6 @@
+url: "https://template_site.hp.gbif-test.org/" # the base hostname & protocol for your staging site, e.g. https://example.hp.gbif-test.org
+
+siteMeasurements:
+  enable: false
+
+graphqlEndpoint: "https://graphql.gbif-test.org/graphql"
