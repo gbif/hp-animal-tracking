@@ -67,19 +67,16 @@ var siteConfig = {
     },
     "highlightedFilters": [
       "taxonKey",
-      "mediaType",
+      "organismId",
       "country",
       "eventDate",
-      "lifeStage",
-      "sex",
-      "identifiedBy",
       "datasetKey",
       "publishingOrg",
       "collectionCode"
     ],
     "excludedFilters": [
       // RECORD
-      "basisOfRecord", // MachineObservation for all
+      // "basisOfRecord",
       "collectionKey",
       // "collectionCode",
       // "datasetId",
@@ -184,7 +181,6 @@ var siteConfig = {
     "availableTableColumns": [
       "scientificName",
       "commonName",
-      "media",
       "country",
       "coordinates",
       "locality",
@@ -207,6 +203,7 @@ var siteConfig = {
       // "institutionCode",
       // "institutionKey",
       // "iucnRedListCategory",
+      // "media",
       // "preparations",
       // "recordedBy",
       // "recordNumber",
@@ -217,7 +214,6 @@ var siteConfig = {
     "defaultEnabledTableColumns": [
       "scientificName",
       "commonName",
-      "media",
       "country",
       "eventDate",
       "datasetKey",
