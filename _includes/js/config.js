@@ -61,13 +61,9 @@ var siteConfig = {
   "messages": {},
   "occurrenceSearch": {
     "scope": {
-      "type": "in",
-      "key": "publishingOrg",
-      "values": [
-        "760d5f24-4c04-40da-9646-1b2c935da502",
-        "2e7df380-8356-4533-bcb3-5459e23c794e",
-        "8e1a97a0-3ca8-11d9-8439-b8a03c50a862"
-      ]
+      "type": "equals",
+      "key": "networkKey",
+      "value": "ab013f3a-3c00-42cb-9fdb-cb5f4ba20a4b"
     },
     "highlightedFilters": [
       "taxonKey",
@@ -118,6 +114,7 @@ var siteConfig = {
       // TODO: you should add a scope here if you need search to be limited to a subset
       // search filters have the format {field: [values]}
       type: ['OCCURRENCE', 'CHECKLIST']
+      networkKey: ["ab013f3a-3c00-42cb-9fdb-cb5f4ba20a4b"]
     },
   },
   "publisherSearch": {},
