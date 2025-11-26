@@ -1,7 +1,6 @@
 /*
-This is the fil in which you configure the data widgets. Feel free to experiment with the configuration options. 
-But it is also completely okay to write and issue and ask for help to configure the widgets.
-You probably want to check out the documentation at https://hp-theme.gbif-staging.org/documentation-intro
+This is the file in which you configure the data widgets.
+See: https://hp-theme.gbif-staging.org/data-exploration-config
 */
 var siteConfig = {
   "version": 3,
@@ -44,7 +43,7 @@ var siteConfig = {
     "LITERATURE"
   ],
   "dataHeader": {
-    "enableApiPopup": false,
+    "enableApiPopup": true,
     "enableInfoPopup": false
   },
   "theme": {
@@ -59,6 +58,7 @@ var siteConfig = {
       "options": {
         "MERCATOR": [
           "BRIGHT",
+          "DARK",
           "NATURAL"
         ]
       }
@@ -72,17 +72,6 @@ var siteConfig = {
       "default": true,
       "textDirection": "ltr",
       "iso3LetterCode": "eng",
-      "cmsLocale": "en-GB",
-      "gbifOrgLocalePrefix": "",
-      "mapTileLocale": "en"
-    },
-    {
-      "code": "da",
-      "localeCode": "da",
-      "label": "Dansk",
-      "default": false,
-      "textDirection": "ltr",
-      "iso3LetterCode": "dan",
       "cmsLocale": "en-GB",
       "gbifOrgLocalePrefix": "",
       "mapTileLocale": "en"
@@ -131,14 +120,14 @@ var siteConfig = {
       "table",
       "gallery",
       "map",
-      "clusters",
+      // "clusters",
       "dashboard",
       "download"
     ],
     "mapSettings": {
-      "lat": 52,
-      "lng": 12,
-      "zoom": 4.911544076366507
+      "lat": 30,
+      "lng": 0,
+      "zoom": 2
     }
   },
   "collectionSearch": {

@@ -1,5 +1,67 @@
-// $navbar-dropdown-arrow: #f00;
+$primary: #0587be; // WILDLABS blue
+$link: #ec7823; // WILDLABS orange
+$info: #5b985c; // WILDLABS green
+
 @import "theme/_main";
 
 // You can add additional styling here
-@import "_example"; // either as inline css or as a separate file as in this case
+
+// Site-wide styling
+.navbar {
+  border-bottom: .4rem solid $link;
+}
+
+.floatingHero {
+  background-color: $primary;
+
+  .feature-title:after {
+    border-bottom: .4rem solid $primary;
+    content: "";
+    height: 100%;
+    left: calc(50% - 4.25rem);
+    position: absolute;
+    top: 1rem;
+    width: 8.5rem;
+  }
+}
+
+.toc {
+  a.active {
+    border-left-color: $primary;
+  }
+}
+
+.footer {
+  .footer-column {
+    border-top: 0.4rem solid lightgrey;
+    padding-top: 1rem;
+
+    &:nth-child(1) {
+      border-top-color: $link;
+    }
+    &:nth-child(2) {
+      border-top-color: $primary;
+    }
+    &:nth-child(3) {
+      border-top-color: $info;
+    }
+  }
+}
+
+// Homepage
+.home {
+  .statistic {
+    .feature-title {
+      font-size: 2.4rem;
+      font-weight: 900;
+      margin-bottom: 0.5rem;
+      a {
+        color: $link;
+      }
+    }
+    .feature-description {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
+}

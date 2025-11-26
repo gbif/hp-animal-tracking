@@ -1,82 +1,34 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-# You should also look at https://theme.hp.gbif-staging.org/documentation-intro for options
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# SITE SETTINGS
+title: Wild Tracks
+description: Discover bio-logging data for research and conservation.
+url: "https://animal-tracking.hp.gbif-staging.org/"
+baseurl: "" # Start with slash if used
 
-title: Template_site # the title of your site should go here
-email: your-email@example.com
-description: >- # this means to ignore newlines (until baseurl:)
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://animal-tracking.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+# SOCIAL PROFILES
+email: info@gbif.org
+github_username: bio-logging
 
-# SOCIAL PROFILES that will show in the footer
-email: info@gbif.org                                      # Social icon in footer
-twitter_username: yourname # if you have an account you want to link to. Else comment this line out
-github_username:  yourname # if you have an account you want to link to. Else comment this line out
-bluesky_username: yourname.org                            # Social icon in footer
-youtube_username: yourname                              # Social icon in footer
-facebook_username: yourname                             # Social icon in footer
-flickr_username: yourname                               # Social icon in footer
-instagram_username: yourname                              # Social icon in footer
-mastodon_url: https://something.goes/@here                # Social icon in footer
-linkedin_url: https://www.linkedin.com/company/yourname # Social icon in footer
+# THEME SETTINGS
+algae:
+  rootLang: en
+  # logo: /assets/images/fungi.svg # Displayed with 28px height
+  # logoAndTitle: false
+  archive_permalink: /news/
+  latestPostLimit: 2
+  style:
+    square: false
+    # colors: see _main.scss
+    coloredHeadlineLinks: false
+useSharedLibrary: true # Use the new component library
+updateTranslationMenuOnWidgetEvents: true
+permalink: pretty # Will strip extensions like .html from urls
 
-# Build settings
+# BUILD SETTINGS
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-
 remote_theme: gbif/jekyll-hp-base-theme
-
-algae:
-  rootLang: en
-  # latestPostLimit: 2
-  # logo: /assets/images/fungi.svg  # Logo in navbar, will be displayed with 28px height
-  # logoAndTitle: false           # include the title next to the logo
-  archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
-  style:
-    # square: false               # Should corners be square or rounded
-    colors:
-      primary: "#fa5e97"          # Primary color of your brand. Use HEX code. Used for buttons and links
-      # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color. 
-    coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
-  navbar:                         # RELATED TO NAVIGATION BAR
-    # brandBackground: yellow     # Define a custom background for the logo/title in the top navigation bar
-    # color: "tomato"             # What color should the navbar be?
-    # hasWhiteText: true          # Should the text color be white?
-    # floating: true
-
-useSharedLibrary: true # Use the new component library
-updateTranslationMenuOnWidgetEvents: true # Notice that this feature requires urls for widgets to be the same across languages (except for a language prefix)
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -90,121 +42,18 @@ exclude:
   - vendor/ruby/
   - .LICENSE
   - .netlify.toml
+  - .README.md
   - serve.json
-  - en/data/disabled/
-  - README.md
-  - /**/README.md  # exclude all README.md files in any folder
 
-permalink: pretty # will strip extensions like .html from urls
-
+# FRONTMATTER DEFAULTS
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: "" # All files in the project
     values:
-      layout: "page" # So by default any page will use the layout "page"
-      lang: en # And have the default language english
+      layout: "page"
+      lang: en
   - scope:
-      path: "_posts" # an empty string here means all files in the project
+      path: "_posts"
     values:
       layout: "post"
-      permalink: "/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
-  
-  - scope:
-      path: "es/" # For anything in the "es" folder the default is to set the lang frontMatter property to "es" . this should be deleted or adapted to your site if you support other languages
-    values:
-      lang: es
-  - scope:
-      path: "_posts/es" # our subfolder in posts for spanish translation of news items
-    values:
-      layout: "post"
-      permalink: "/es/post/:year/:slug/"   # Use /es/post/yyyy/{filename}/ as permalink for all posts
-      lang: es # And have the default language in that folder be spanish
-  
-  - scope:
-      path: "fr/"
-    values:
-      lang: fr
-  - scope:
-      path: "_posts/fr"
-    values:
-      layout: "post"
-      permalink: "/fr/post/:year/:slug/"
-      lang: fr
-
-  - scope:
-      path: "ar/"
-    values:
-      lang: ar
-  - scope:
-      path: "_posts/ar"
-    values:
-      layout: "post"
-      permalink: "/ar/post/:year/:slug/"
-      lang: ar
-  
-  - scope:
-      path: "ja/"
-    values:
-      lang: ja
-  - scope:
-      path: "_posts/ja"
-    values:
-      layout: "post"
-      permalink: "/ja/post/:year/:slug/"
-      lang: ja
-
-  - scope:
-      path: "ru/"
-    values:
-      lang: ru
-  - scope:
-      path: "_posts/ru"
-    values:
-      layout: "post"
-      permalink: "/ru/post/:year/:slug/"
-      lang: ru
-
-  - scope:
-      path: "zh/"
-    values:
-      lang: zh
-  - scope:
-      path: "_posts/zh"
-    values:
-      layout: "post"
-      permalink: "/zh/post/:year/:slug/"
-      lang: zh
-
-      
-  - scope:
-      path: "zh-tw/"
-    values:
-      lang: zh-tw
-  - scope:
-      path: "_posts/zh-tw"
-    values:
-      layout: "post"
-      permalink: "/zh-tw/post/:year/:slug/"
-      lang: zh-tw
-
-  - scope:
-      path: "it/"
-    values:
-      lang: it
-  - scope:
-      path: "_posts/it"
-    values:
-      layout: "post"
-      permalink: "/it/post/:year/:slug/"
-      lang: it
-
-  - scope:
-      path: "da/"
-    values:
-      lang: da
-  - scope:
-      path: "_posts/da"
-    values:
-      layout: "post"
-      permalink: "/da/post/:year/:slug/"
-      lang: da
+      permalink: "/news/:year/:slug/"
