@@ -108,14 +108,12 @@ var siteConfig = {
     }
   },
   "datasetSearch": {
-    excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
-    highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
     scope: {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // search filters have the format {field: [values]}
-      type: ['OCCURRENCE', 'CHECKLIST']
       networkKey: ["ab013f3a-3c00-42cb-9fdb-cb5f4ba20a4b"]
     },
+    highlightedFilters: ["q", "publishingCountry", "publishingOrg", "projectId"],
+    excludedFilters: ["type"]
+    // More filters: "dwcaExtension", "hostingOrg", "license", "networkKey"
   },
   "publisherSearch": {},
 }
