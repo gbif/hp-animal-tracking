@@ -181,6 +181,7 @@ var siteConfig = {
     "availableTableColumns": [
       "scientificName",
       "commonName",
+      "organismId",
       "country",
       "coordinates",
       "locality",
@@ -214,6 +215,7 @@ var siteConfig = {
     "defaultEnabledTableColumns": [
       "scientificName",
       "commonName",
+      "organismId",
       "country",
       "eventDate",
       "datasetKey",
