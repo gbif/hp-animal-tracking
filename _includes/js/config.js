@@ -223,7 +223,7 @@ var siteConfig = {
     ],
     "tabs": [
       "table",
-      "gallery",
+      // "gallery",
       "map",
       // "clusters",
       "dashboard",
