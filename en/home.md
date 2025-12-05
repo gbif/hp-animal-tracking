@@ -4,9 +4,9 @@ klass: home
 lang-ref: home
 permalink: /
 title: Wild Track
-# videos: ["/assets/images/wild-boar-inbo.mp4"]
-# imageLicense: "Wild boars (adults and juveniles) captured by a camera trap in Belgium. Video by INBO and UHasselt."
 description: Animal tracking data portal
+videos: ["/assets/images/eurodeer-02070010.mp4"]
+imageLicense: "Red deer with a GPS collar in Italy. Video by EURODEER."
 height: 60vh
 composition:
   - type: heroVideo
