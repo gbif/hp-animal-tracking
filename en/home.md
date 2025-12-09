@@ -3,7 +3,7 @@ layout: home
 klass: home
 lang-ref: home
 permalink: /
-title: Wild Track
+title: Wild Moves
 description: Animal tracking data portal
 videos: ["/assets/images/eurodeer-02070010.mp4"]
 imageLicense: "Red deer with a GPS collar in Italy. Video by EURODEER."

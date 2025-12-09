@@ -1,5 +1,5 @@
 # SITE SETTINGS
-title: Wild Track
+title: Wild Moves
 description: Animal tracking data portal
 url: "https://animal-tracking.hp.gbif-staging.org/"
 baseurl: "" # Start with slash if used

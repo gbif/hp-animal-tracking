@@ -13,7 +13,7 @@ stats:
 users:
   title: Search for data
   description: >
-    Wild Track helps you discover animal tracking and bio-logging datasets published to [GBIF](https://www.gbif.org).
+    Wild Moves helps you discover animal tracking and bio-logging datasets published to [GBIF](https://www.gbif.org).
     Search metadata to find datasets relevant to you.
     Or dive into the occurrence data these datasets collectively contain.
   cta:
@@ -30,7 +30,7 @@ publishers:
     Want others to discover your animal tracking data and use it for research and conservation?
     Publish your dataset to [GBIF](https://www.gbif.org) and assign it
     to the [Bio-logging network](https://www.gbif.org/network/ab013f3a-3c00-42cb-9fdb-cb5f4ba20a4b/dataset)
-    and it will automatically appear on Wild Track.
+    and it will automatically appear on Wild Moves.
   cta:
   - text: Become a publisher
     href: https://www.gbif.org/become-a-publisher
