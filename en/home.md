@@ -50,4 +50,11 @@ composition:
       background: "{{ site.data.images.shark.src }}"
       imageLicense: "{{ site.data.images.shark.caption }}"
       reverse: true
+  - type: floatingText
+    inlineData:
+      klass: hp
+      title: Interested in camera trap data?
+      description: >
+        [Visit Wild Album](https://camera-trap.hp.gbif-staging.org){:.button}
+      hasWhiteText: true
 ---

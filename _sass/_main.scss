@@ -66,4 +66,12 @@ $info: #5b985c; // WILDLABS green
       font-weight: 600;
     }
   }
+
+  .textBanner {
+    // Note: this class inherits from floatingHero
+    a {
+      color: initial;
+      text-decoration: none;
+    }
+  }
 }
