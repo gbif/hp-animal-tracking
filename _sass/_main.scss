@@ -67,8 +67,8 @@ $info: #5b985c; // WILDLABS green
     }
   }
 
-  .textBanner {
-    // Note: this class inherits from floatingHero
+  .hp {
+    // Also has .textBanner class, which inherits from .floatingHero
     a {
       color: initial;
       text-decoration: none;
