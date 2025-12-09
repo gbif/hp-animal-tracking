@@ -6,7 +6,7 @@ permalink: /
 title: Wild Moves
 description: Animal tracking data portal
 videos: ["/assets/images/eurodeer-02070010.mp4"]
-imageLicense: "Red deer with a GPS collar in Italy. Video by EURODEER."
+imageLicense: "Red deer with a GPS collar in Trentino, Italy. Video by Fondazione Edmund Mach/Euromammals."
 height: 60vh
 composition:
   - type: heroVideo
