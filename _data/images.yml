@@ -4,7 +4,6 @@
 # background: "{{ site.data.images.name_of_image.src }}"
 # imageLicense: "{{ site.data.images.name_of_image.caption }}"
 
-example:
-  src: /assets/images/placeholders/templates/w1600h800.png
-  caption: |
-    Isotype of _Gradiental rosa_
+gull:
+  src: /assets/images/lbbg-73826.jpg
+  caption: Lesser black-backed gull with a GPS tag in Belgium. Photo by Misjel Decleer/VLIZ.
