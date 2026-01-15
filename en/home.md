@@ -55,6 +55,6 @@ composition:
       klass: hp
       title: Interested in camera trap data?
       description: >
-        [Visit Wild Album](https://wild-album.hp.gbif-staging.org){:.button}
+        [Visit Wild Album](https://album.wildlabs.net){:.button}
       hasWhiteText: true
 ---

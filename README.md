@@ -7,6 +7,6 @@
 Hosted portal for animal tracking data.
 
 - Staging: <https://wild-moves.hp.gbif-staging.org>
-- Production: TBD
+- Production: <https://moves.wildlabs.net>
 
 This Jekyll website makes use of a theme and biodiversity widgets developed by the [GBIF](https://www.gbif.org/) network. You can find information on editing this site and more on [gbif/hosted-portals](https://github.com/gbif/hosted-portals).

@@ -1,7 +1,7 @@
 # SITE SETTINGS
 title: Wild Moves
 description: Animal tracking data portal
-url: "https://wild-moves.hp.gbif-staging.org"
+url: "https://moves.wildlabs.net"
 baseurl: "" # Start with slash if used
 
 # SOCIAL PROFILES
