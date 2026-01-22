@@ -1,0 +1,24 @@
+# Footer content is organized in columns.
+# You can also add a small print license statement at the bottom.
+
+# Columns (the more you add, the narrower they will be)
+columns:
+  - name: (es) About
+    description: >
+      (es) This website is maintained by WILDLABS and volunteers
+      from the animal tracking community.
+      [About this site](/es/about).
+  - name: (es) Code
+    description: >
+      (es) This website is open source.
+      Have a suggestion or noticed a typo?
+      Submit an issue on [GitHub](https://github.com/gbif/hp-wild-moves/).
+  - name: (es) Contact
+    connectIcons: true
+
+# Small print license statement to add at the bottom of the footer. Can be Markdown
+# Will be prefixed by "© {{ site.author }}" if defined in _config.yml
+# Will be postfixed by "Powered by GBIF"
+# (Disabled by default, remove the '#' lines on the following two lines to enable.)
+# license: >
+#   Content on this site is licensed under an [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
