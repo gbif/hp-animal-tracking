@@ -47,13 +47,25 @@ exclude:
 
 # FRONTMATTER DEFAULTS
 defaults:
+  # English
   - scope:
-      path: "" # All files in the project
+      path: "" # All files
     values:
-      layout: "page"
+      layout: page
       lang: en
   - scope:
-      path: "_posts"
+      path: _posts
     values:
-      layout: "post"
+      layout: post
       permalink: "/news/:year/:slug/"
+  # Spanish
+  - scope:
+      path: es
+    values:
+      layout: page
+      lang: es
+  - scope:
+      path: _posts/es
+    values:
+      layout: post
+      permalink: "/es/news/:year/:slug/"
