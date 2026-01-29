@@ -26,7 +26,7 @@ composition:
     inlineData:
       title: (es) Search for data
       description: >
-        (es) Wild Moves helps you discover animal tracking and bio-logging datasets published to [GBIF](https://www.gbif.org).
+        (es) Wild Moves helps you discover animal tracking and bio-logging datasets published to [GBIF](https://www.gbif.org/es).
         Search metadata to find datasets relevant to you.
         Or dive into the occurrence data these datasets collectively contain.
       cta:
@@ -41,12 +41,12 @@ composition:
       title: (es) Make your data discoverable
       description: >
         (es) Want others to discover your animal tracking data and use it for research and conservation?
-        Publish your dataset to [GBIF](https://www.gbif.org) and assign it
+        Publish your dataset to [GBIF](https://www.gbif.org/es) and assign it
         to the [Bio-logging network](https://www.gbif.org/network/ab013f3a-3c00-42cb-9fdb-cb5f4ba20a4b/dataset)
         and it will automatically appear on Wild Moves.
       cta:
         - text: (es) Become a publisher
-          href: https://www.gbif.org/become-a-publisher
+          href: https://www.gbif.org/es/become-a-publisher
       background: "{{ site.data.images.gull.src }}"
       imageLicense: "{{ site.data.images.gull.caption }}"
       reverse: true
